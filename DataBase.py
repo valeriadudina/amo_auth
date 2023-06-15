@@ -5,10 +5,10 @@ from datetime import datetime
 
 def get_config(domain):
     db = mysql.connector.connect(
-        host="206.189.224.185",
-        user="Salesautomators_user",
-        password="&S%9A8p58Wo5",
-        database="token"
+        host="host",
+        user="user",
+        password="password",
+        database="db_name"
     )
 
     curs = db.cursor()
